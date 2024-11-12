@@ -1,0 +1,5 @@
+services:
+  lamp:
+    build: /opt/lamp/Docker/
+    image: lamp:1.0.0
+    container_name: lamp
