@@ -5,8 +5,9 @@ It's a simple LAMP (Linux Apache Mysqp PHP) Container
     # Checkout git repo
     cd /opt
     rm -rf /opt/lamp
-    https://github.com/gameix/lamp.git
+    git clone https://github.com/gameix/lamp.git
     cd /opt/lamp
+	git checkout create-container
     git branch -a
 
     # Install docker compose
